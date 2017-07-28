@@ -1,5 +1,10 @@
 body {
 	padding-top: 50px;
+	width: 100%;
+  height: 100%;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: #333;
 }
 .jumbotron{
 	background-color: #cccccc;
@@ -16,6 +21,35 @@ body {
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+.headmaster{
+	background-color: #cccccc;
+	background: url('images/couple.jpg') no-repeat 0 0 scroll;
+    background-size: 100% 100%;
+	width: auto;
+	height: 400px;
+	color: white;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.admin{
+	background-color: #cccccc;
+	background: url('images/house.jpg') no-repeat 0 0 scroll;
+    background-size: 100% 100%;
+	width: auto;
+	height: 200px;
+	color: black;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
 #calendar{
 	width:auto;
 	height: auto;
@@ -129,7 +163,20 @@ body {
 	-o-background-size: cover;
 
 }
-
+.event{
+	background-attachment: fixed;
+    background: url('images/soccer.jpg') no-repeat 0 0 scroll;
+    display: block;
+color: black;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 390px;
+    z-index: 1;
+    background-color: hsla(0,0%,100%,0.70);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
 .foot{
 	color: red;
 	background-color: white;
@@ -138,6 +185,10 @@ body {
 .foot span{
 	float: right;
 	color: black;
+}
+.gallery{
+	height: 250px;
+	width:250px;
 }
 
 .footer ul {
