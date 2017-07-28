@@ -188,7 +188,10 @@ color: black;
 }
 .gallery{
 	height: 250px;
-	width:250px;
+	/*
+	background: url('images/soccer.jpg') no-repeat ;
+	background-repeat:no-repeat;
+background-position: center center;*/
 }
 
 .footer ul {
